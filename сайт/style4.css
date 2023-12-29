@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url(https://gagaru.club/uploads/posts/2023-06/1685826893_gagaru-club-p-zimnii-minimalizm-fon-2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    
+    }    
+    
+    section {
+
+        max-width: 60vh;
+        position: relative;
+        background-color: transparent;
+     border: 2px solid rgb(255, 255, 255);
+     border-radius: 30px;
+     backdrop-filter: blur(9px);
+     justify-content: center;
+     align-items: center;
+     padding: 2rem 3rem;
+     color: rgb(12, 46, 85);
+    }
+
+   h1 {
+text-align: right;
+font-size: 12px;
+color: rgba(52, 52, 255, 0.218)(12, 46, 85);
+
+
+   }
+
+   h2 {
+    text-align: center; 
+
+}
+
+   p {
+
+    text-align: justify;
+
+   }
+
+   img {
+
+    position: relative;
+    margin-left: 20vh;
+   
+
+   }
+   
+   span {
+
+    font-size: 20px;
+
+   }
+
+   .animate-motion {
+               
+                
+      font-weight: bold;
+      font-size: 22px;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff69;
+      animation: animate_motion 4s 0s both infinite;
+  }
+  
+      span b {
+
+         color: rgba(255, 0, 0, 0.53);
+      }
+
+     p  {
+
+         color: rgba(76, 76, 135, 0.433)(12, 46, 85);
+      }
+
+      button {
+
+         position: absolute;
+         width: 80%;
+         height: 4vh;
+         border-radius: 40px;
+         background-color: rgba(51, 39, 139, 0.132);
+         border: 1px solid rgb(255, 255, 255);
+         outline: none;
+         cursor: pointer;
+         font-size: 1rem;
+         font-weight: 600;
+         transition: all 0.6s ease;
+         color: rgba(255, 255, 255, 0.521);
+     
+     }
+     
+     button:hover {
+     
+         background-color: transparent;
+     color: rgb(255, 255, 255);
+     }
